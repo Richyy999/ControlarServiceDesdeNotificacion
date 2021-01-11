@@ -22,6 +22,8 @@ import es.rbp.controlarservicedesdenotificacion.servicios.ServicioAccionNotifica
  * 2.- Puede pausar el contador
  * <p>
  * 3.- Muestra el segundo actual del contador
+ * <p>
+ * IMPORTANTE: Para que la notificación se muestre en la pantalla de bloqueo se debe conceder el permiso desde los ajustes del dispositivo
  */
 public class Notificacion {
 
