@@ -1,4 +1,4 @@
-package es.rbp.controlarservicedesdenotificacion;
+package es.rbp.controlar_service_desde_notificacion;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -9,7 +9,7 @@ import android.widget.RemoteViews;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import es.rbp.controlarservicedesdenotificacion.servicios.ServicioAccionNotificacion;
+import es.rbp.controlar_service_desde_notificacion.servicios.ServicioAccionNotificacion;
 
 /**
  * @author Ricardo Bordería Pi
@@ -75,7 +75,7 @@ public class Notificacion {
     /**
      * Constructor por privado de la clase.
      * <p>
-     * En él se crea la notificación que utilizarña el servicio {@link es.rbp.controlarservicedesdenotificacion.servicios.ServicioContador}
+     * En él se crea la notificación que utilizarña el servicio {@link es.rbp.controlar_service_desde_notificacion.servicios.ServicioContador}
      *
      * @param context contexto de la aplicación
      */
@@ -117,9 +117,6 @@ public class Notificacion {
                 .setAutoCancel(false)
                 .setSmallIcon(R.drawable.clock)
                 .build();
-
-        NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(context);
-        notificationManagerCompat.notify(FOREGROUND_ID, this.notification);
     }
 
     /**

@@ -1,4 +1,4 @@
-package es.rbp.controlarservicedesdenotificacion;
+package es.rbp.controlar_service_desde_notificacion;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import es.rbp.controlarservicedesdenotificacion.servicios.ServicioContador;
+import es.rbp.controlar_service_desde_notificacion.servicios.ServicioContador;
 
 /**
  * Esta activity empieza, pausa o termina el {@link ServicioContador} y muestra el segundo actual del servicio
@@ -93,9 +93,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (id == R.id.btnEmpezar)
             empezarServicio();
         else if (id == R.id.btnParar)
-            servicio.pararConteo();
+            servicio.stop();
         else if (id == R.id.btnPausar)
-            servicio.pausarConteo();
+            servicio.pause();
     }
 
     @Override

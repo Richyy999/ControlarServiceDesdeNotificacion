@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="es.rbp.controlarservicedesdenotificacion">
+    package="es.rbp.controlar_service_desde_notificacion">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="es.rbp.controlar_service_desde_notificacion.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".servicios.ServicioAccionNotificacion" />
-        <service android:name=".servicios.ServicioContador" />
+        <receiver android:name="es.rbp.controlar_service_desde_notificacion.servicios.ServicioAccionNotificacion" />
+        <service android:name="es.rbp.controlar_service_desde_notificacion.servicios.ServicioContador" />
     </application>
 
 </manifest>

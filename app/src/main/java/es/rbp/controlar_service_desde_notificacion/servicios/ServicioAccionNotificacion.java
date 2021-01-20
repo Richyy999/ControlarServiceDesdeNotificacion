@@ -1,4 +1,4 @@
-package es.rbp.controlarservicedesdenotificacion.servicios;
+package es.rbp.controlar_service_desde_notificacion.servicios;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

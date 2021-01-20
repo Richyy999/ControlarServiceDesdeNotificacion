@@ -1,4 +1,4 @@
-package es.rbp.controlarservicedesdenotificacion;
+package es.rbp.controlar_service_desde_notificacion;
 
 import org.junit.Test;
 

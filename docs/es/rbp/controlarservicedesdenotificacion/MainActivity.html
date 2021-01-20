@@ -49,8 +49,8 @@ var activeTableTab = "activeTableTab";
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../../es/rbp/controlarservicedesdenotificacion/ExampleUnitTest.html" title="class in es.rbp.controlarservicedesdenotificacion"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
-<li><a href="../../../es/rbp/controlarservicedesdenotificacion/Notificacion.html" title="class in es.rbp.controlarservicedesdenotificacion"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../es/rbp/controlarservicedesdenotificacion/ExampleUnitTest.html" title="class in es.rbp.controlar_service_desde_notificacion"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../es/rbp/controlarservicedesdenotificacion/Notificacion.html" title="class in es.rbp.controlar_service_desde_notificacion"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../index.html?es/rbp/controlarservicedesdenotificacion/MainActivity.html" target="_top">Frames</a></li>
@@ -92,7 +92,7 @@ var activeTableTab = "activeTableTab";
 <!-- ========= END OF TOP NAVBAR ========= -->
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle">es.rbp.controlarservicedesdenotificacion</div>
+<div class="subTitle">es.rbp.controlar_service_desde_notificacion</div>
 <h2 title="Class MainActivity" class="title">Class MainActivity</h2>
 </div>
 <div class="contentContainer">
@@ -124,7 +124,7 @@ var activeTableTab = "activeTableTab";
 <li>androidx.appcompat.app.AppCompatActivity</li>
 <li>
 <ul class="inheritance">
-<li>es.rbp.controlarservicedesdenotificacion.MainActivity</li>
+<li>es.rbp.controlar_service_desde_notificacion.MainActivity</li>
 </ul>
 </li>
 </ul>
@@ -149,14 +149,14 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd>android.content.ComponentCallbacks, android.content.ComponentCallbacks2, android.content.ServiceConnection, android.view.KeyEvent.Callback, android.view.LayoutInflater.Factory, android.view.LayoutInflater.Factory2, android.view.View.OnClickListener, android.view.View.OnCreateContextMenuListener, android.view.Window.Callback, androidx.activity.OnBackPressedDispatcherOwner, androidx.appcompat.app.ActionBarDrawerToggle.DelegateProvider, androidx.appcompat.app.AppCompatCallback, androidx.core.app.ActivityCompat.OnRequestPermissionsResultCallback, androidx.core.app.ActivityCompat.RequestPermissionsRequestCodeValidator, androidx.core.app.TaskStackBuilder.SupportParentable, androidx.core.view.KeyEventDispatcher.Component, androidx.lifecycle.LifecycleOwner, androidx.lifecycle.ViewModelStoreOwner, androidx.savedstate.SavedStateRegistryOwner, <a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html" title="interface in es.rbp.controlarservicedesdenotificacion.servicios">ServicioContador.Llamada</a></dd>
+<dd>android.content.ComponentCallbacks, android.content.ComponentCallbacks2, android.content.ServiceConnection, android.view.KeyEvent.Callback, android.view.LayoutInflater.Factory, android.view.LayoutInflater.Factory2, android.view.View.OnClickListener, android.view.View.OnCreateContextMenuListener, android.view.Window.Callback, androidx.activity.OnBackPressedDispatcherOwner, androidx.appcompat.app.ActionBarDrawerToggle.DelegateProvider, androidx.appcompat.app.AppCompatCallback, androidx.core.app.ActivityCompat.OnRequestPermissionsResultCallback, androidx.core.app.ActivityCompat.RequestPermissionsRequestCodeValidator, androidx.core.app.TaskStackBuilder.SupportParentable, androidx.core.view.KeyEventDispatcher.Component, androidx.lifecycle.LifecycleOwner, androidx.lifecycle.ViewModelStoreOwner, androidx.savedstate.SavedStateRegistryOwner, <a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html" title="interface in es.rbp.controlar_service_desde_notificacion.servicios">ServicioContador.Llamada</a></dd>
 </dl>
 <hr>
 <br>
 <pre>public class <span class="typeNameLabel">MainActivity</span>
 extends androidx.appcompat.app.AppCompatActivity
-implements android.view.View.OnClickListener, android.content.ServiceConnection, <a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html" title="interface in es.rbp.controlarservicedesdenotificacion.servicios">ServicioContador.Llamada</a></pre>
-<div class="block">Esta activity empieza, pausa o termina el <a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.html" title="class in es.rbp.controlarservicedesdenotificacion.servicios"><code>ServicioContador</code></a> y muestra el segundo actual del servicio
+implements android.view.View.OnClickListener, android.content.ServiceConnection, <a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html" title="interface in es.rbp.controlar_service_desde_notificacion.servicios">ServicioContador.Llamada</a></pre>
+<div class="block">Esta activity empieza, pausa o termina el <a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.html" title="class in es.rbp.controlar_service_desde_notificacion.servicios"><code>ServicioContador</code></a> y muestra el segundo actual del servicio
  <p>
  Para conectarse al servicio, hay que implementar la interfaz <code>ServiceConnection</code> y llamar al método <code>Context.bindService(Intent, ServiceConnection, int)</code>.
  Solo puede haber un cliente por servicio, por lo que hay que llamar al método <code>Context.unbindService(ServiceConnection)</code> cuando se detenga
@@ -429,7 +429,7 @@ implements android.view.View.OnClickListener, android.content.ServiceConnection,
 <div class="block">Envía el segundo actual</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html#actualizarContador-int-">actualizarContador</a></code>&nbsp;in interface&nbsp;<code><a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html" title="interface in es.rbp.controlarservicedesdenotificacion.servicios">ServicioContador.Llamada</a></code></dd>
+<dd><code><a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html#actualizarContador-int-">actualizarContador</a></code>&nbsp;in interface&nbsp;<code><a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html" title="interface in es.rbp.controlar_service_desde_notificacion.servicios">ServicioContador.Llamada</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>segundoActual</code> - <a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.html#segundoActual"><code>ServicioContador.segundoActual</code></a></dd>
 </dl>
@@ -446,7 +446,7 @@ implements android.view.View.OnClickListener, android.content.ServiceConnection,
 <div class="block">Envía el estado actual de la cuenta del servicio</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html#actualizarEstado-int-">actualizarEstado</a></code>&nbsp;in interface&nbsp;<code><a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html" title="interface in es.rbp.controlarservicedesdenotificacion.servicios">ServicioContador.Llamada</a></code></dd>
+<dd><code><a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html#actualizarEstado-int-">actualizarEstado</a></code>&nbsp;in interface&nbsp;<code><a href="../../../es/rbp/controlarservicedesdenotificacion/servicios/ServicioContador.Llamada.html" title="interface in es.rbp.controlar_service_desde_notificacion.servicios">ServicioContador.Llamada</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>estado</code> - estado actual de la cuenta.</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
@@ -482,8 +482,8 @@ implements android.view.View.OnClickListener, android.content.ServiceConnection,
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../../es/rbp/controlarservicedesdenotificacion/ExampleUnitTest.html" title="class in es.rbp.controlarservicedesdenotificacion"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
-<li><a href="../../../es/rbp/controlarservicedesdenotificacion/Notificacion.html" title="class in es.rbp.controlarservicedesdenotificacion"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../es/rbp/controlarservicedesdenotificacion/ExampleUnitTest.html" title="class in es.rbp.controlar_service_desde_notificacion"><span class="typeNameLink">Prev&nbsp;Class</span></a></li>
+<li><a href="../../../es/rbp/controlarservicedesdenotificacion/Notificacion.html" title="class in es.rbp.controlar_service_desde_notificacion"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../index.html?es/rbp/controlarservicedesdenotificacion/MainActivity.html" target="_top">Frames</a></li>
